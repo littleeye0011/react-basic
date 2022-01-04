@@ -40,3 +40,48 @@ body {
   margin-left: 1rem;
   font-weight: bold;
 }
+
+.Shopping-cart {
+  width: 750px;
+  height: 420px;
+  background: #fff;
+  margin: 120px auto;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product_image {
+  margin-right: 50px;
+}
+
+.product_image img {
+  width: 120px;
+  height: 80px;
+}
+
+.item {
+  padding: 5px 30px;
+  height: 100px;
+  display: flex;
+}
+
+.title {
+  height: 60px;
+  border-bottom: 1px solid #e1e8ee;
+  padding: 20px 30px;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.footer {
+  height: 60px;
+  border-top: 1px solid #e1e8ee;
+  padding: 20px 30px;
+  font-size: 25px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

@@ -6,9 +6,9 @@ const Cart = () => {
     <div className="Shopping-cart">
       <div className="title">สินค้าในตะกร้า</div>
       {CartData.map((data) => {
-        return <CartItem key={data.id} />;
+        return <CartItem key={data.id} {...data} />;
       })}
-      <div className="fotter">ยอดรวม 5 บาท</div>
+      <div className="footer">ยอดรวม 5 บาท</div>
     </div>
   );
 };
