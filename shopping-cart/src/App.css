@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 body {
@@ -84,4 +84,84 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+.item:nth-child(3) {
+  border-top: 1px solid #e1e8ee;
+  border-bottom: 1px solid #e1e8ee;
+}
+
+.desription {
+  padding-top: 5px;
+  margin-right: 60px;
+  min-width: 120px;
+}
+
+.desription span {
+  display: block;
+  margin-top: 5px;
+  font-size: 18px;
+  color: #000;
+  font-weight: 700;
+}
+
+.desription span:last-child {
+  font-weight: 300;
+  margin-top: 8px;
+  color: #86939e;
+}
+
+.quantily {
+  padding-top: 20px;
+  margin-right: 60px;
+}
+
+.quantily input {
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.plus-btn,
+.minus-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.plus-btn img {
+  margin-top: 3px;
+}
+
+.minus-btn img {
+  margin-bottom: 3px;
+}
+
+.total-price {
+  width: 83px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.remove {
+  position: relative;
+  padding-top: 25px;
+  margin-left: 60px;
+  cursor: pointer;
+}
+
+.empty {
+  height: 60px;
+  border-bottom: 1px solid #e1e8ee;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+  color: red;
 }
